@@ -58,4 +58,8 @@ public abstract class Person implements IHaveId{
     private String details(){
         return "Siema! Jestem " + firstname + " " + lastname;
     }
+
+    public static void print(Employee employee){
+        employee.printDetails();
+    }
 }

@@ -9,10 +9,10 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
 
-        var employeeClass = new Employee();
-        funWithTypes(employeeClass.getClass());
-        funWithConstructors(employeeClass.getClass());
-        funWithMethods(employeeClass.getClass());
+        var employee = new Employee();
+        funWithTypes(employee.getClass());
+        funWithConstructors(employee.getClass());
+        funWithMethods(employee.getClass());
     }
 
 
@@ -35,13 +35,15 @@ public class Main {
 //
 //        System.out.println(superClassName);
 //
-//        Arrays.stream(clazz.getInterfaces())
-//                .forEach(x->
+        var interfaces = Arrays.stream(clazz.getInterfaces()).toList();
+
+//        interfaces.forEach(x->
 //                      System.out.println(x.getName())
 //                );
 //
-//        Arrays.stream(clazz.getSuperclass().getInterfaces())
-//                .forEach(x->
+        var superClassInterfaces = Arrays.stream(clazz.getSuperclass().getInterfaces()).toList();
+
+//        superClassInterfaces.forEach(x->
 //                        System.out.println(x.getName())
 //                );
     }
