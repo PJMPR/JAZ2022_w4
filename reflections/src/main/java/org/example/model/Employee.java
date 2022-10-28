@@ -25,4 +25,8 @@ public class Employee extends Person{
     public void setIncome(double income) {
         this.income = income;
     }
+
+    private void secretAction(){
+        System.out.println("I do something in secret...");
+    }
 }

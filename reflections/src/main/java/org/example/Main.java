@@ -96,7 +96,7 @@ public class Main {
 //                    System.out.println(modifierInString +" " + name + " has " + method.getParameterCount()+ " parameters");
 //                }
 //        );
-
+//
 //        message("Test działania/wywoływania metod");
 //        var employee = new Employee("jan", "nowak", 5000);
 //
@@ -106,6 +106,13 @@ public class Main {
 //        setIdMethod.invoke(employee, 1200);
 //        var getIdMethod = clazz.getDeclaredMethod("getIncome");
 //        System.out.println("nowa pensja: " + getIdMethod.invoke(employee));
+//
+//        message("wywoływanie metody prywatnej");
+//        // employee.secretAction(); // nie można tak !!
+//
+//        var secretMethod = clazz.getDeclaredMethod("secretAction");
+//        secretMethod.setAccessible(true);
+//        secretMethod.invoke(employee);
     }
 
     public static void message(String message){
