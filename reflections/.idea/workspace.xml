@@ -35,11 +35,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/PJWSTK/JAZ2022/wyklady/git/JAZ2022_w4/reflections"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
@@ -71,6 +72,7 @@
       <workItem from="1666944839218" duration="5235000" />
       <workItem from="1666960177874" duration="3066000" />
       <workItem from="1666963796279" duration="375000" />
+      <workItem from="1698313983322" duration="553000" />
     </task>
     <servers />
   </component>
@@ -98,12 +100,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>41</line>
+          <line>48</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>71</line>
+          <line>94</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
